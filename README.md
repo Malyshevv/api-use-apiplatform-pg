@@ -18,6 +18,6 @@ https://api-platform.com/docs/distribution/
 - php -S 127.0.0.1:8000 -t public
 - https://localhost:8000/api
 
-# Make Entity
+# Make Entity ...
 - php bin/console make:entity
 - php bin/console doctrine:schema:update --force

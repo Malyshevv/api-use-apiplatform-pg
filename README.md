@@ -11,3 +11,4 @@ https://api-platform.com/docs/distribution/
 # And start the built-in PHP server:
 
 - php -S 127.0.0.1:8000 -t public
+- https://localhost:8000/api

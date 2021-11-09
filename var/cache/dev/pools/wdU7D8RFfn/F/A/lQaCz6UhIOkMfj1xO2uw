@@ -1,3 +1,0 @@
-<?php //route_name_a59ab2467cc71a37e4ac1ae0252834ff
-
-return [PHP_INT_MAX, 'api_news_get_item'];

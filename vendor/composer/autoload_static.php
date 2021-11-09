@@ -62,6 +62,7 @@ class ComposerStaticInit4c762acde29163cb43c3e572f9243644
             'Symfony\\Component\\Routing\\' => 26,
             'Symfony\\Component\\PropertyInfo\\' => 31,
             'Symfony\\Component\\PropertyAccess\\' => 33,
+            'Symfony\\Component\\Process\\' => 26,
             'Symfony\\Component\\PasswordHasher\\' => 33,
             'Symfony\\Component\\HttpKernel\\' => 29,
             'Symfony\\Component\\HttpFoundation\\' => 33,
@@ -76,10 +77,12 @@ class ComposerStaticInit4c762acde29163cb43c3e572f9243644
             'Symfony\\Component\\Config\\' => 25,
             'Symfony\\Component\\Cache\\' => 24,
             'Symfony\\Component\\Asset\\' => 24,
+            'Symfony\\Bundle\\WebServerBundle\\' => 31,
             'Symfony\\Bundle\\TwigBundle\\' => 26,
             'Symfony\\Bundle\\SecurityBundle\\' => 30,
             'Symfony\\Bundle\\MakerBundle\\' => 27,
             'Symfony\\Bundle\\FrameworkBundle\\' => 31,
+            'Symfony\\Bundle\\DebugBundle\\' => 27,
             'Symfony\\Bridge\\Twig\\' => 20,
             'Symfony\\Bridge\\ProxyManager\\' => 28,
             'Symfony\\Bridge\\Doctrine\\' => 24,
@@ -265,6 +268,10 @@ class ComposerStaticInit4c762acde29163cb43c3e572f9243644
         array (
             0 => __DIR__ . '/..' . '/symfony/property-access',
         ),
+        'Symfony\\Component\\Process\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/process',
+        ),
         'Symfony\\Component\\PasswordHasher\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/password-hasher',
@@ -321,6 +328,10 @@ class ComposerStaticInit4c762acde29163cb43c3e572f9243644
         array (
             0 => __DIR__ . '/..' . '/symfony/asset',
         ),
+        'Symfony\\Bundle\\WebServerBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/web-server-bundle',
+        ),
         'Symfony\\Bundle\\TwigBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/twig-bundle',
@@ -336,6 +347,10 @@ class ComposerStaticInit4c762acde29163cb43c3e572f9243644
         'Symfony\\Bundle\\FrameworkBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/framework-bundle',
+        ),
+        'Symfony\\Bundle\\DebugBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/debug-bundle',
         ),
         'Symfony\\Bridge\\Twig\\' => 
         array (
@@ -969,9 +984,9 @@ class ComposerStaticInit4c762acde29163cb43c3e572f9243644
         'ApiPlatform\\Core\\Validator\\EventListener\\ValidateListener' => __DIR__ . '/..' . '/api-platform/core/src/Validator/EventListener/ValidateListener.php',
         'ApiPlatform\\Core\\Validator\\Exception\\ValidationException' => __DIR__ . '/..' . '/api-platform/core/src/Validator/Exception/ValidationException.php',
         'ApiPlatform\\Core\\Validator\\ValidatorInterface' => __DIR__ . '/..' . '/api-platform/core/src/Validator/ValidatorInterface.php',
-        'App\\Entity\\Book' => __DIR__ . '/../..' . '/src/Entity/Book.php',
-        'App\\Entity\\Review' => __DIR__ . '/../..' . '/src/Entity/Review.php',
+        'App\\Entity\\News' => __DIR__ . '/../..' . '/src/Entity/News.php',
         'App\\Kernel' => __DIR__ . '/../..' . '/src/Kernel.php',
+        'App\\Repository\\NewsRepository' => __DIR__ . '/../..' . '/src/Repository/NewsRepository.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Doctrine\\Bundle\\DoctrineBundle\\Attribute\\AsEntityListener' => __DIR__ . '/..' . '/doctrine/doctrine-bundle/Attribute/AsEntityListener.php',
@@ -2666,6 +2681,11 @@ class ComposerStaticInit4c762acde29163cb43c3e572f9243644
         'Symfony\\Bridge\\Twig\\TokenParser\\TransTokenParser' => __DIR__ . '/..' . '/symfony/twig-bridge/TokenParser/TransTokenParser.php',
         'Symfony\\Bridge\\Twig\\Translation\\TwigExtractor' => __DIR__ . '/..' . '/symfony/twig-bridge/Translation/TwigExtractor.php',
         'Symfony\\Bridge\\Twig\\UndefinedCallableHandler' => __DIR__ . '/..' . '/symfony/twig-bridge/UndefinedCallableHandler.php',
+        'Symfony\\Bundle\\DebugBundle\\Command\\ServerDumpPlaceholderCommand' => __DIR__ . '/..' . '/symfony/debug-bundle/Command/ServerDumpPlaceholderCommand.php',
+        'Symfony\\Bundle\\DebugBundle\\DebugBundle' => __DIR__ . '/..' . '/symfony/debug-bundle/DebugBundle.php',
+        'Symfony\\Bundle\\DebugBundle\\DependencyInjection\\Compiler\\DumpDataCollectorPass' => __DIR__ . '/..' . '/symfony/debug-bundle/DependencyInjection/Compiler/DumpDataCollectorPass.php',
+        'Symfony\\Bundle\\DebugBundle\\DependencyInjection\\Configuration' => __DIR__ . '/..' . '/symfony/debug-bundle/DependencyInjection/Configuration.php',
+        'Symfony\\Bundle\\DebugBundle\\DependencyInjection\\DebugExtension' => __DIR__ . '/..' . '/symfony/debug-bundle/DependencyInjection/DebugExtension.php',
         'Symfony\\Bundle\\FrameworkBundle\\CacheWarmer\\AbstractPhpFileCacheWarmer' => __DIR__ . '/..' . '/symfony/framework-bundle/CacheWarmer/AbstractPhpFileCacheWarmer.php',
         'Symfony\\Bundle\\FrameworkBundle\\CacheWarmer\\AnnotationsCacheWarmer' => __DIR__ . '/..' . '/symfony/framework-bundle/CacheWarmer/AnnotationsCacheWarmer.php',
         'Symfony\\Bundle\\FrameworkBundle\\CacheWarmer\\CachePoolClearerCacheWarmer' => __DIR__ . '/..' . '/symfony/framework-bundle/CacheWarmer/CachePoolClearerCacheWarmer.php',
@@ -2911,6 +2931,15 @@ class ComposerStaticInit4c762acde29163cb43c3e572f9243644
         'Symfony\\Bundle\\TwigBundle\\DependencyInjection\\TwigExtension' => __DIR__ . '/..' . '/symfony/twig-bundle/DependencyInjection/TwigExtension.php',
         'Symfony\\Bundle\\TwigBundle\\TemplateIterator' => __DIR__ . '/..' . '/symfony/twig-bundle/TemplateIterator.php',
         'Symfony\\Bundle\\TwigBundle\\TwigBundle' => __DIR__ . '/..' . '/symfony/twig-bundle/TwigBundle.php',
+        'Symfony\\Bundle\\WebServerBundle\\Command\\ServerLogCommand' => __DIR__ . '/..' . '/symfony/web-server-bundle/Command/ServerLogCommand.php',
+        'Symfony\\Bundle\\WebServerBundle\\Command\\ServerRunCommand' => __DIR__ . '/..' . '/symfony/web-server-bundle/Command/ServerRunCommand.php',
+        'Symfony\\Bundle\\WebServerBundle\\Command\\ServerStartCommand' => __DIR__ . '/..' . '/symfony/web-server-bundle/Command/ServerStartCommand.php',
+        'Symfony\\Bundle\\WebServerBundle\\Command\\ServerStatusCommand' => __DIR__ . '/..' . '/symfony/web-server-bundle/Command/ServerStatusCommand.php',
+        'Symfony\\Bundle\\WebServerBundle\\Command\\ServerStopCommand' => __DIR__ . '/..' . '/symfony/web-server-bundle/Command/ServerStopCommand.php',
+        'Symfony\\Bundle\\WebServerBundle\\DependencyInjection\\WebServerExtension' => __DIR__ . '/..' . '/symfony/web-server-bundle/DependencyInjection/WebServerExtension.php',
+        'Symfony\\Bundle\\WebServerBundle\\WebServer' => __DIR__ . '/..' . '/symfony/web-server-bundle/WebServer.php',
+        'Symfony\\Bundle\\WebServerBundle\\WebServerBundle' => __DIR__ . '/..' . '/symfony/web-server-bundle/WebServerBundle.php',
+        'Symfony\\Bundle\\WebServerBundle\\WebServerConfig' => __DIR__ . '/..' . '/symfony/web-server-bundle/WebServerConfig.php',
         'Symfony\\Component\\Asset\\Context\\ContextInterface' => __DIR__ . '/..' . '/symfony/asset/Context/ContextInterface.php',
         'Symfony\\Component\\Asset\\Context\\NullContext' => __DIR__ . '/..' . '/symfony/asset/Context/NullContext.php',
         'Symfony\\Component\\Asset\\Context\\RequestStackContext' => __DIR__ . '/..' . '/symfony/asset/Context/RequestStackContext.php',
@@ -3664,6 +3693,23 @@ class ComposerStaticInit4c762acde29163cb43c3e572f9243644
         'Symfony\\Component\\PasswordHasher\\Hasher\\UserPasswordHasherInterface' => __DIR__ . '/..' . '/symfony/password-hasher/Hasher/UserPasswordHasherInterface.php',
         'Symfony\\Component\\PasswordHasher\\LegacyPasswordHasherInterface' => __DIR__ . '/..' . '/symfony/password-hasher/LegacyPasswordHasherInterface.php',
         'Symfony\\Component\\PasswordHasher\\PasswordHasherInterface' => __DIR__ . '/..' . '/symfony/password-hasher/PasswordHasherInterface.php',
+        'Symfony\\Component\\Process\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/symfony/process/Exception/ExceptionInterface.php',
+        'Symfony\\Component\\Process\\Exception\\InvalidArgumentException' => __DIR__ . '/..' . '/symfony/process/Exception/InvalidArgumentException.php',
+        'Symfony\\Component\\Process\\Exception\\LogicException' => __DIR__ . '/..' . '/symfony/process/Exception/LogicException.php',
+        'Symfony\\Component\\Process\\Exception\\ProcessFailedException' => __DIR__ . '/..' . '/symfony/process/Exception/ProcessFailedException.php',
+        'Symfony\\Component\\Process\\Exception\\ProcessSignaledException' => __DIR__ . '/..' . '/symfony/process/Exception/ProcessSignaledException.php',
+        'Symfony\\Component\\Process\\Exception\\ProcessTimedOutException' => __DIR__ . '/..' . '/symfony/process/Exception/ProcessTimedOutException.php',
+        'Symfony\\Component\\Process\\Exception\\RuntimeException' => __DIR__ . '/..' . '/symfony/process/Exception/RuntimeException.php',
+        'Symfony\\Component\\Process\\ExecutableFinder' => __DIR__ . '/..' . '/symfony/process/ExecutableFinder.php',
+        'Symfony\\Component\\Process\\InputStream' => __DIR__ . '/..' . '/symfony/process/InputStream.php',
+        'Symfony\\Component\\Process\\PhpExecutableFinder' => __DIR__ . '/..' . '/symfony/process/PhpExecutableFinder.php',
+        'Symfony\\Component\\Process\\PhpProcess' => __DIR__ . '/..' . '/symfony/process/PhpProcess.php',
+        'Symfony\\Component\\Process\\Pipes\\AbstractPipes' => __DIR__ . '/..' . '/symfony/process/Pipes/AbstractPipes.php',
+        'Symfony\\Component\\Process\\Pipes\\PipesInterface' => __DIR__ . '/..' . '/symfony/process/Pipes/PipesInterface.php',
+        'Symfony\\Component\\Process\\Pipes\\UnixPipes' => __DIR__ . '/..' . '/symfony/process/Pipes/UnixPipes.php',
+        'Symfony\\Component\\Process\\Pipes\\WindowsPipes' => __DIR__ . '/..' . '/symfony/process/Pipes/WindowsPipes.php',
+        'Symfony\\Component\\Process\\Process' => __DIR__ . '/..' . '/symfony/process/Process.php',
+        'Symfony\\Component\\Process\\ProcessUtils' => __DIR__ . '/..' . '/symfony/process/ProcessUtils.php',
         'Symfony\\Component\\PropertyAccess\\Exception\\AccessException' => __DIR__ . '/..' . '/symfony/property-access/Exception/AccessException.php',
         'Symfony\\Component\\PropertyAccess\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/symfony/property-access/Exception/ExceptionInterface.php',
         'Symfony\\Component\\PropertyAccess\\Exception\\InvalidArgumentException' => __DIR__ . '/..' . '/symfony/property-access/Exception/InvalidArgumentException.php',

@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '33373ff930d5e483b8fda6ac3cf987c251789a30',
         'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '33373ff930d5e483b8fda6ac3cf987c251789a30',
             'dev_requirement' => false,
         ),
         'api-platform/core' => array(
@@ -397,6 +397,15 @@
             'reference' => 'd4e409d9fbcfbf71af0e5a940abb7b0b4bad0bd3',
             'dev_requirement' => false,
         ),
+        'symfony/debug-bundle' => array(
+            'pretty_version' => 'v5.3.4',
+            'version' => '5.3.4.0',
+            'type' => 'symfony-bundle',
+            'install_path' => __DIR__ . '/../symfony/debug-bundle',
+            'aliases' => array(),
+            'reference' => '356c7d2acb6bc93b1c091255068ccfb9ad55a3e0',
+            'dev_requirement' => true,
+        ),
         'symfony/dependency-injection' => array(
             'pretty_version' => 'v5.3.10',
             'version' => '5.3.10.0',
@@ -628,6 +637,15 @@
             'reference' => 'e66119f3de95efc359483f810c4c3e6436279436',
             'dev_requirement' => false,
         ),
+        'symfony/process' => array(
+            'pretty_version' => 'v5.3.7',
+            'version' => '5.3.7.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/process',
+            'aliases' => array(),
+            'reference' => '38f26c7d6ed535217ea393e05634cb0b244a1967',
+            'dev_requirement' => false,
+        ),
         'symfony/property-access' => array(
             'pretty_version' => 'v5.3.8',
             'version' => '5.3.8.0',
@@ -821,6 +839,15 @@
             'install_path' => __DIR__ . '/../symfony/web-link',
             'aliases' => array(),
             'reference' => '0075c9949c30a61d9b9e7483686d72d261480ef1',
+            'dev_requirement' => false,
+        ),
+        'symfony/web-server-bundle' => array(
+            'pretty_version' => 'v4.4.0',
+            'version' => '4.4.0.0',
+            'type' => 'symfony-bundle',
+            'install_path' => __DIR__ . '/../symfony/web-server-bundle',
+            'aliases' => array(),
+            'reference' => '83202a9dae60b29eb55ae1a0c6696c586de3ce0b',
             'dev_requirement' => false,
         ),
         'symfony/yaml' => array(

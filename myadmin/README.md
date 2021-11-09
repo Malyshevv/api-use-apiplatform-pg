@@ -4,7 +4,6 @@
 
 # API Platform Start
 
-- cd YOR_FLOODER_PROJECT/myadmin
 - npm start
 - https://localhost:3000/
 

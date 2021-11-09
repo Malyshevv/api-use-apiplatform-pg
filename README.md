@@ -32,6 +32,7 @@ https://api-platform.com/docs/distribution/
 
 - cd YOR_FLOODER_PROJECT/myadmin
 - npm start
+- https://localhost:3000/
 
 # API Platform (required tools)
 

@@ -16,6 +16,11 @@ https://api-platform.com/docs/distribution/
 # And start the built-in PHP server:
 
 - php bin/console server:run
+
+* if You have trouble on this step (command not found)
+* - composer require symfony/web-server-bundle 4.4
+* - php bin/console cache:clear
+
 - https://localhost:8000/api
 
 # Make Entity ...

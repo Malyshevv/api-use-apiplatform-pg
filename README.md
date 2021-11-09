@@ -15,9 +15,24 @@ https://api-platform.com/docs/distribution/
 
 # And start the built-in PHP server:
 
-- php -S 127.0.0.1:8000 -t public
+- php bin/console server:run
 - https://localhost:8000/api
 
 # Make Entity ...
 - php bin/console make:entity
 - php bin/console doctrine:schema:update --force
+
+
+
+# API Platform Admin (required reading)
+
+- https://api-platform.com/docs/admin/getting-started/
+
+# API Platform Start
+
+- cd YOR_FLOODER_PROJECT/myadmin
+- npm start
+
+# API Platform (required tools)
+
+- https://nodejs.org/en/

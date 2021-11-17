@@ -30,9 +30,10 @@ if You have trouble on this step (command not found)
 - https://localhost:8000/api
 
 # Make Entity ...
-- php bin/console make:entity
-- php bin/console doctrine:schema:update --force
-
+```
+php bin/console make:entity
+php bin/console doctrine:schema:update --force
+```
 
 
 # API Platform Admin (required reading)
